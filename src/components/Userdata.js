@@ -28,9 +28,9 @@ const Userdata = () => {
         const response = await fetch(`https://api.instantwebtools.net/v1/passenger?page=${page}&size=10`);
 
         if (response.ok) {
-            // console.log("ok hai ");
+            // console.log("ok ");
         } else {
-            // console.log("bhakk sale okk nai hai ");
+            // console.log(" reject");
         }
         const resdata = await response.json();
 
